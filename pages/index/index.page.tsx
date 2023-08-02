@@ -1,6 +1,7 @@
-import { Counter } from './Counter'
+import { Counter } from "./Counter";
+import { LoginButton } from "./LoginButton";
 
-export { Page }
+export { Page };
 
 function Page() {
   return (
@@ -10,9 +11,9 @@ function Page() {
       <ul>
         <li>Rendered to HTML.</li>
         <li>
-          Interactive. <Counter />
+          <LoginButton />
         </li>
       </ul>
     </>
-  )
+  );
 }
